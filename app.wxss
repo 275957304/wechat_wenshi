@@ -1,0 +1,36 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+page{
+    font-size: 30rpx;
+    color: #333;
+    line-height: 45rpx;
+    height: 100%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.main{
+    padding: 0 30rpx;
+}
+.live{
+    color: #fe8c13;
+}
+
+.gary{
+    color: #666;
+}
+.light{
+    color: #999;
+}
+
+.fg{
+    font-size: 36rpx;
+}
+.fs{
+    font-size: 24rpx;
+}

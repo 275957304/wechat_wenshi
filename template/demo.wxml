@@ -1,0 +1,24 @@
+<!--
+    index: int
+    msg: string
+    time: string
+
+    使用模板
+    <template is="msgItem" data="{{...item}}"/>
+    Page({
+        data: {
+            item: {
+                index: 0,
+                msg: 'this is a template',
+                time: '2016-09-15'
+            }
+        }
+    })
+-->
+
+<template name="msgItem">
+    <view>
+        <text> {{index}}: {{msg}} </text>
+        <text> Time: {{time}}  教程</text>
+    </view>
+</template>
