@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-    城标
+    <search class="search" bindsearch="handleSearch" placeholder="{{placeholder}}"></search>
+    <view>基本管理</view>
 </view>

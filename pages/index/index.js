@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
     data: {
-        currentTab:0,
+        placeholder:"这里是搜索默认文本",
     },   
 
     /**
@@ -74,5 +74,9 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+    // 搜索
+    handleSearch : function(e){
+        console.log( e.detail )
     }
 })
