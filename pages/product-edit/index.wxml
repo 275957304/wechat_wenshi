@@ -1,0 +1,46 @@
+<view class='container'>
+    <view class='edit'>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='恒润靡唇膏'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">所属分类:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='恒润靡唇膏'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品款式:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输产品款式" />
+            </view>
+            <view class="weui-cell__ft">
+                <view class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"></view>
+            </view>
+            <view class="weui-flex__item">
+                <badge badgeVal="{{pStyle}}" ></badge>             
+                
+            </view>
+        </view>
+
+    </view>
+</view>

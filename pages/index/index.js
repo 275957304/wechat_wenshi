@@ -1,10 +1,10 @@
 //index.js
 //获取应用实例
-const app = getApp()
-
+const app = getApp();
+var Api = require('../../utils/api.js');
 Page({
     data: {
-        placeholder:"这里是搜索默认文本",
+        placeholder:"请输入搜索内容",
     },   
 
     /**
@@ -25,13 +25,23 @@ Page({
             }
 
         });
+
+        var longs = Api.getbasic();
+        longs.then(res =>{
+            // if(res.data.code == '-3'){
+            //     wx.navigateTo({
+            //         url: "/pages/login/login"
+            //     })
+            // };
+            console.log(res.data)
+        })
     },
 
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function () {
-
+    
     },
 
     /**

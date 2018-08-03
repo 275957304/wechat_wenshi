@@ -1,3 +1,31 @@
-.container{
-    
+.head{
+    background: #e91e63;
+    width: 100%;
+    padding: 20rpx 30rpx;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.home{
+    padding-top: 110rpx;
+}
+.list{
+    background: #fff;
+    padding:28rpx 20rpx;
+    margin-bottom: 20rpx;
+}
+.tit{
+    border-left: 8rpx solid #e91e63;
+    color: #191919;
+    padding-left: 13rpx;
+    font-weight: bold;
+    height: 24rpx;
+    line-height: 24rpx;
+}
+.desc{
+    margin-top: 25rpx;
+    color: #7f7f7f;
+    text-align: center;
 }

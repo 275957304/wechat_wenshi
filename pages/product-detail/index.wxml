@@ -1,0 +1,46 @@
+<view class='container'>
+    <view class='swiper-container'>
+        <swiper class='swiper_box' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}" wx:key="id">
+                <swiper-item>
+                    <image src="{{item}}" class="slide-image" width="750rpx" height="600rpx"/>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class='detail-head'>
+        <view class='name'>Apple Watch Series 3智能手表（GPS+蜂窝网络款 42毫米 深空灰色铝金属表壳 黑色运动型表带 MQQ</view>
+        <view class='price'>￥3399.00</view>
+        <view class='sold'>
+            已售:153件
+            <text class='fr'>库存:50件</text>
+        </view>
+    </view>
+
+    <view class='detail-cnt'>
+        <view class='cnt-tit'>商品详情</view>
+        <image width="750rpx" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" />
+        这里用template去做
+    </view>
+
+    <view class='foot'>
+        <view class='foot-item' bindtap="obtained">
+            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
+            下架
+        </view>
+        <view class='foot-item' bindtap='cancelShear'>
+            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
+            取消分享获利
+        </view>
+
+        <view class='foot-item' bindtap='edit'>
+            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
+            编辑
+        </view>
+        
+        <view class='foot-item' bindtap='delete'>
+            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
+            删除
+        </view>
+    </view>
+</view>

@@ -34,7 +34,7 @@ function getRequest(url, data) {
     return getRequest({
         url: url,
         method: 'GET',
-        data: data,
+        data: data || {},
         header: {
             'Content-Type': 'application/json'
         }
@@ -66,7 +66,7 @@ module.exports = {
 /*
 
 使用说明
-wxApi = require('api.js')
+Api = require('api.js')
 var wxRequest = require('wxRequest.js')
 
 var url = Api.getUrl();

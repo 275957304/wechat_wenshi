@@ -1,0 +1,32 @@
+<view class='container'>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch"></search>
+        <view class='weui-flex mt15'>
+            <view class='weui-flex__item'>全部:345</view>
+            <view class='weui-flex__item'>已上线:345</view>
+            <view class='weui-flex__item'>已下架:345</view>
+        </view>
+    </view>
+
+    <view class='list mt20'>
+
+        <navigator url="/pages/product-detail/index" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="list-img">
+                <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />
+            </view>
+            <view class="weui-media-box__bd_in-appmsg">
+                <view class="title">恒润阵色双眼皮这里是标题恒润阵色双眼皮这里是标题</view>
+                <view class='price'><text class='symbol'>￥</text>258</view>
+                <view class="status">
+                    已售153件
+                    <text class='fr'>库存：500件</text>
+                </view>
+            </view>
+            <view class='right'>
+                <view class='btn'>已上线</view>
+            </view>
+        </navigator>
+
+
+    </view>
+</view>

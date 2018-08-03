@@ -1,0 +1,63 @@
+.login_tip{
+    width: 320rpx;
+    height: 320rpx;
+    background: #fff3f6;
+    border-radius: 50%;
+    margin: 0 auto 42rpx;
+    text-align: center;
+}
+.login-list{
+    padding: 0 55rpx;
+}
+.weui-cell{
+    background: #fcfafb;
+    margin-bottom: 40rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+}
+.weui-label{
+    width: auto;
+    padding-right: 30rpx;
+    position: relative;
+    margin-right: 10rpx;
+    font-size: 36rpx;
+}
+.weui-label::after{
+    display: block;
+    content: "";
+    background: #feb232;
+    position: absolute;
+    top: 50%;
+    margin-top: -20rpx;
+    right: 10rpx;
+    width: 4rpx;
+    height: 40rpx;
+}
+.login-list .weui-cell:before{
+    border: none;
+}
+.login-btn{
+    margin-top: 160rpx;
+}
+.btn:after{
+    border: none;
+}
+.login_foot{
+    position: fixed;
+    bottom: 10rpx;
+    text-align: center;
+    width: 100%;
+    color: #2196f3;
+    padding: 15rpx 0;
+}
+
+.obtain-btn{
+    background: #e2e0e1;
+    background: #ffa000;
+    color: #fcfbfc;
+    width: 120rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 8rpx;
+}

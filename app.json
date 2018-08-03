@@ -1,15 +1,23 @@
 {
-  "pages":[   
-    "pages/index/index",   
-    "pages/order/order",
-    "pages/shop/shop"
+  "pages":[
+        "pages/product-edit/index",
+        "pages/index/index",
+        
+        "pages/product-detail/index",        
+        "pages/product/index",
+
+        "pages/service/index",
+        "pages/order/order",
+        "pages/shop/shop",        
+        "pages/login/login"
+        
     
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#e91e63",
     "navigationBarTitleText": "小程序练习",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#fce8ef"
   },
   "tabBar": {
         "color": "#7A7E83",

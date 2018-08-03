@@ -1,5 +1,36 @@
 <!--index.wxml-->
 <view class="container">
-    <search class="search" bindsearch="handleSearch" placeholder="{{placeholder}}"></search>
-    <view>基本管理</view>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch" placeholder="{{placeholder}}"></search>
+    </view>    
+    <view class='home'>
+
+        <navigator class='list' url="/pages/product/index">
+            <view class='tit'>产品管理</view>
+            <view class='weui-flex desc'>
+                <view class='weui-flex__item'>全部:345</view>
+                <view class='weui-flex__item'>未付款:345</view>
+                <view class='weui-flex__item'>待发货:345</view>
+            </view>
+        </navigator>
+        
+        <view class='list'>
+            <view class='tit'>服务管理</view>
+            <view class='weui-flex desc'>
+                <view class='weui-flex__item'>全部:345</view>
+                <view class='weui-flex__item'></view>
+                <view class='weui-flex__item'></view>                
+            </view>
+        </view>
+
+        <view class='list'>
+            <view class='tit'>专家管理</view>
+            <view class='weui-flex desc'>
+                <view class='weui-flex__item'>全部:345</view>
+                <view class='weui-flex__item'></view>
+                <view class='weui-flex__item'></view>
+            </view>
+        </view>
+
+    </view>
 </view>
