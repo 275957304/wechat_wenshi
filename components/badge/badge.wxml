@@ -1,4 +1,5 @@
-<view class="badge">
-    {{badgeVal}}
-</view>
+<block class="badge" wx:for="{{badgeVal}}" wx:key="id">  
+    <text bindtap='badgeDele' data-id="{{index}}" class='item'>{{item}}</text> 
+</block> 
+
  

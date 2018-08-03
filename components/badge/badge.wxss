@@ -2,3 +2,26 @@
   color: yellow;
 } */
 @import '../../style/weui.wxss';
+.item{
+    display: inline-block;
+    color: #ceacb8;
+    border: 2rpx solid #ceacb8;
+    border-radius: 8rpx;
+    padding: 0 15rpx;
+    position: relative;
+    height: 36rpx;
+    line-height: 36rpx;
+    margin: 23rpx 30rpx;
+}
+.item::after{
+    content: "";
+    display: block;
+    width: 32rpx;
+    height: 32rpx;
+    position: absolute;
+    right: -16rpx;
+    top: -16rpx;
+    background: #b2b2b2 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowNkE0N0U2Nzk3MEUxMUU4QjhDOTkzNkYzOEZEODM5RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowNkE0N0U2ODk3MEUxMUU4QjhDOTkzNkYzOEZEODM5RiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjA2QTQ3RTY1OTcwRTExRThCOEM5OTM2RjM4RkQ4MzlGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA2QTQ3RTY2OTcwRTExRThCOEM5OTM2RjM4RkQ4MzlGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+4jjd+QAAAOhJREFUeNqkk2sOgjAQhMVLqD8FX1Af909EzyKFiHIFTV1waoZa0IRNvqjd3WlnWwNjzGhIjPE5FVJB/dEzF47CpPlVn0BIzTtuQoI1H6FwQe2pOT0SkaCRKIXY01zXZKi5CwcWqFmQyNUR4VzdvLM5d5elkJPIBmuaLCru8flcCQXtVpK1r/l0DWuN3WxUHXP5XKMbAbDxFB7eSo9qDP/WQoXvGsPstcDNBazENAeN6/QKJFSYY5icszPJ8KBaAooKNK7OPZ2CJYPXGLJA+qPZsiWR1lOeYSHqabbshTN6RsHQv/NLgAEARTyKGTFUzUEAAAAASUVORK5CYII=') no-repeat center / 17rpx auto;
+    border-radius: 50%;
+}
+

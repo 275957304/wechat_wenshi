@@ -14,6 +14,9 @@ Component({
 
     },
     methods : {
-        
+        badgeDele : function(e){
+            this.properties.badgeVal.splice(e.currentTarget.dataset.id, 1);
+            this.triggerEvent( 'badge', this.properties.badgeVal );
+        }
     }
 })
