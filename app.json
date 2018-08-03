@@ -1,5 +1,6 @@
 {
   "pages":[
+        "pages/product-add/index",
         "pages/product-edit/index",
         "pages/index/index",
         

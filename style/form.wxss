@@ -1,0 +1,45 @@
+.container{
+    background: #fff;
+}
+.weui-cell{
+    margin-bottom: 30rpx;
+}
+.weui-cell__bd{
+    border: 2rpx solid #cdcdcd;
+    height: 56rpx;
+    padding: 0 15rpx;
+}
+.weui-input,.weui-select{
+    height: 56rpx;
+    min-height: 56rpx;
+    line-height: 56rpx;
+    border: none;
+}
+.weui-cell:before{
+    border: none;
+}
+.weui-label{
+    width: 135rpx;
+    text-align: right;
+    padding-right: 15rpx;
+}
+.weui-vcode-btn{    
+    height: 60rpx;
+    line-height: 60rpx;
+    background: #ffa203;
+    color: #fff;
+}
+
+.edit-txt{
+  margin: 20rpx 30rpx 15rpx;
+}
+.edit-txt-info{
+  margin-top:5rpx;
+  padding: 10rpx;
+  border: 2rpx solid #ddd;
+}
+.weui-cell_select .weui-cell__bd:after{
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71,  0);
+    right: -5rpx;
+}

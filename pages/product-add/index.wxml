@@ -1,0 +1,71 @@
+<view class='container'>
+    <view class='pt20'>
+        
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入产品名称" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">所属分类:</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
+                        <view class="weui-select weui-select_in-select-after">{{countries[countryIndex]}}</view>
+                    </picker>
+                </view>
+            </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品款式:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="productStyle" value='' placeholder="请输入产品款式特点" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addStyle' class="weui-vcode-btn">添加</view>
+            </view>
+        </view> 
+
+        <view class='mt15'>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">产品单价:</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入产品单价" value=''/>
+                </view>
+            </view>
+        </view>
+
+        <view class='pt20'>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">所属库存:</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入产品剩余 " value=''/>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">关健词:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="productStyle" value='' placeholder="请输入产品搜索关健词" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addStyle' class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+        
+    </view>
+</view>

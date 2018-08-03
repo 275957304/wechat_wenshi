@@ -1,5 +1,5 @@
 <view class='container'>
-    <view class='edit'>
+    <view class='edit pt20'>
 
         <view class="weui-cell weui-cell_input">
             <view class="weui-cell__hd">
@@ -41,7 +41,102 @@
             </view>
         </view>
 
-        
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品单价:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='258.00'/>
+            </view>
+        </view>
 
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">所属库存:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='500'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">关键词:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="productStyle" value='口红' placeholder="请输产品款式" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addStyle' class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"></view>
+            </view>
+            <view class="weui-flex__item">
+                <badge bindbadge="bindBadge" badgeVal="{{pStyle}}" ></badge>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">略缩图:</view>
+            </view>
+            <view class="weui-flex__item">
+                <view>打开</view>
+                <view>
+                  图片
+                </view>
+            </view>
+        </view>
+        
+        <view class='edit-txt'>
+          <view>图文介绍:</view>
+          <view class='edit-txt-info'>
+          这里是文字介绍
+          </view>
+        </view>
+
+        <view class="weui-uploader__bd">
+          <view class="weui-uploader__files" id="uploaderFiles">
+            <block wx:for="{{files}}" wx:key="*this">
+                                    <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                                        <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                                    </view>
+                                </block>
+
+              <view class="weui-uploader__file">
+                                    <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+                                </view>
+                                <view class="weui-uploader__file">
+                                    <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+                                </view>
+                                <view class="weui-uploader__file">
+                                    <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+                                </view>
+                                <view class="weui-uploader__file weui-uploader__file_status">
+                                    <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+                                    <view class="weui-uploader__file-content">50%</view>
+                                </view>
+          </view>
+
+          <view class="weui-uploader__input-box">
+            <view class="weui-uploader__input" bindtap="chooseImage"></view>
+          </view>
+
+          
+        </view>
+    </view>
+    <view class='foot-panel'>
+      <view class='foot'>
+        <view class='foot-item'>
+          <view class='foot-link'>取消</view>
+        </view>
+        <view class='foot-item'>
+          <view class='foot-link'>保存</view>
+        </view>
+      </view>
     </view>
 </view>
