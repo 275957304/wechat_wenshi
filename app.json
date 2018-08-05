@@ -1,16 +1,19 @@
 {
   "pages":[
+
+      "pages/login/login",
+    "pages/index/index",
         "pages/product-add/index",
         "pages/product-edit/index",
-        "pages/index/index",
+       
         
         "pages/product-detail/index",        
         "pages/product/index",
 
         "pages/service/index",
         "pages/order/order",
-        "pages/shop/shop",        
-        "pages/login/login"
+        "pages/shop/shop"       
+        
         
     
   ],

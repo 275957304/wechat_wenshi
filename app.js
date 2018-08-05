@@ -58,3 +58,11 @@ App({
 //https://www.xiaopiu.com/h5/byId?id=5b1dcc777619de17aefee586&type=project&activePage=7
 //https://github.com/EastWorld/wechat-app-mall
 //https://developers.weixin.qq.com/miniprogram/dev/component/
+
+
+//https://github.com/wux-weapp/wux-weapp
+
+//https://github.com/o2team/wxapp-img-loader
+//https://github.com/youzouzou/wxapp
+//https://github.com/yaoshanliang/weapp-jump
+//https://github.com/Hongye567/weapp-mark/blob/master/doc/小程序自定义评分组件template（精度0.1）.md
