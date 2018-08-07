@@ -1,6 +1,8 @@
 {
   "pages":[
 
+      
+        "pages/order-ship/index",
         "pages/order-shop/index",
         "pages/order/index",
 
@@ -30,9 +32,10 @@
         "pages/product-detail/index",        
         "pages/product/index",       
 
+        
+        
         "pages/login/login",
         "pages/index/index",
-        
         
         "pages/shop/index"       
         

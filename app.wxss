@@ -1,7 +1,7 @@
 /**app.wxss**/
 @import 'style/weui.wxss';
 page{
-    font-size: 30rpx;
+    font-size: 28rpx;
     color: #4a4a4a;
     line-height: 45rpx;
     height: 100%;
@@ -148,4 +148,7 @@ page{
 }
 .weui-uploader__bd{
   padding:0 30rpx;
+}
+.weui-input{
+    font-size: 28rpx;
 }

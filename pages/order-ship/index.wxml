@@ -1,0 +1,14 @@
+<view>
+    <view class='tab_panel'>
+        <view class='tabbar'>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_wuliu.png" />
+                <text>填写物流</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_delete_g.png" />
+                <text>删除</text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -2,7 +2,57 @@
 .shop-left{
     width: 200rpx;
     margin-right:20rpx;
+    text-align: center;
 }
 .shop-left .list-img{
     margin: 0;
+}
+.status{
+    display: inline-block;
+    line-height: 60rpx;
+    padding: 0 40rpx;
+    margin: 24rpx auto 0;
+    background: #ccc;
+    color: #fff;
+}
+/* 发货 */
+.ship{
+    background: #e8f4fd;
+    color: #349ef3;
+}
+/* 付款 */
+.pay{
+    background: #fdecea;
+    color: #f45347;
+}
+/* 评价 */
+.eva{
+    background: #fff5e5;
+    color: #ffa816;
+}
+/* 完成 */
+.carry{
+    background: #f3f9ec;
+    color: #94c85a;
+}
+/* 收货 */
+.rec{
+    background: #f9e7ed;
+    color: #b82a5b;
+}
+/* 退款 */
+.refund{
+    background: #f7eef1;
+    color: #bc6582;
+}
+.list{
+    color: #7f7f7f;
+}
+.order-name{
+    margin: .15rem 0;
+}
+.address,.user{
+    color: #4c4c4c;
+    line-height: 32rpx;
+    margin: 12rpx 0;
 }

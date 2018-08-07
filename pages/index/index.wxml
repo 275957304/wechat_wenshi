@@ -14,23 +14,23 @@
             </view>
         </navigator>
         
-        <view class='list'>
+        <navigator class='list' url="/pages/service/index">
             <view class='tit'>服务管理</view>
             <view class='main cl'>
                 <view class='item'>全部:345</view>
                 <view class='item'></view>
                 <view class='item'></view>                
             </view>
-        </view>
+        </navigator>
 
-        <view class='list'>
+        <navigator class='list' url="/pages/expert/index">
             <view class='tit'>专家管理</view>
             <view class='main cl'>
                 <view class='item'>全部:345</view>
                 <view class='item'></view>
                 <view class='item'></view>
             </view>
-        </view>
+        </navigator>
 
     </view>
 </view>

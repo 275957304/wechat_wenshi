@@ -9,15 +9,52 @@
     </view>
 
     <view class='list'>
-        <navigator url="/pages/product-detail/index" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+
+        <navigator url="/pages/product-detail/index" class="weui-media-box weui-media-box_appmsg align-end">
             <view class='shop-left'>
                 <view class="list-img">
                     <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />                
                 </view>
+                <text class='status eva'>待发货</text>
             </view>
             <view class="weui-media-box__bd_in-appmsg">
-                fdsfsfdsfds
+                <view class='order-id'>订单ID：GW201804050246266</view>
+                <view class='weui-flex order-name'>
+                    <view class='weui-flex__item'>恒润魅色唇膏恒润魅色唇膏恒润魅色唇膏</view>
+                    <view class='weui-cell__ft'>
+                        <view>X1</view>
+                        <view class='red'>￥200.00</view>
+                    </view>
+                </view>
+                <view class='address'>广东省广州市天河区车街道中山大道5号粤保中心广场0719</view>
+                <view class='user'>梁可儿 <text class='fr'>13599966656</text></view>
+                <view class='fs'>下单时间:2018-04-05 19:30:25</view>
             </view>
         </navigator>
+
+        <navigator url="/pages/product-detail/index" class="weui-media-box weui-media-box_appmsg align-end">
+            <view class='shop-left'>
+                <view class="list-img">
+                    <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />                
+                </view>
+                <text class='status ship'>待发货</text>
+            </view>
+            <view class="weui-media-box__bd_in-appmsg">
+                <view class='order-id'>订单ID：GW201804050246266</view>
+                <view class='weui-flex order-name'>
+                    <view class='weui-flex__item'>恒润魅色唇膏恒润魅色唇膏恒润魅色唇膏</view>
+                    <view class='weui-cell__ft'>
+                        <view>X1</view>
+                        <view class='red'>￥200.00</view>
+                    </view>
+                </view>
+                <view class='address'>广东省广州市天河区车街道中山大道5号粤保中心广场0719</view>
+                <view class='user'>梁可儿 <text class='fr'>13599966656</text></view>
+                <view class='fs'>下单时间:2018-04-05 19:30:25</view>
+            </view>
+        </navigator>
+        
+
+
     </view>    
 </view>

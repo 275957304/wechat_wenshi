@@ -5,6 +5,7 @@
     border-radius: 50%;
     margin: 0 auto 42rpx;
     text-align: center;
+    background:url(https://www.idwenshi.com/public/static/wap/images/3x/logo_login.png) no-repeat center / 320rpx auto;
 }
 .login-list{
     padding: 0 55rpx;
@@ -16,11 +17,11 @@
     line-height: 100rpx;
 }
 .weui-label{
-    width: auto;
+    width: 120rpx;
     padding-right: 30rpx;
     position: relative;
     margin-right: 10rpx;
-    font-size: 36rpx;
+    font-size: 28rpx;    
 }
 .weui-label::after{
     display: block;
