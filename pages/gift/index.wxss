@@ -1,0 +1,26 @@
+@import '../../style/form.wxss';
+.gift-icon{
+    width: 120rpx;
+    height: 160rpx;
+    background:url('https://www.idwenshi.com/public/static/wap/images/2x/pic_hongbao_small.png') no-repeat center / 120rpx 160rpx;
+    margin-right: 20rpx;
+}
+.tit{
+    font-size: 36rpx;
+}
+.price{
+    margin: 10rpx 0;
+    font-size: 34rpx;
+}
+.gift_left{
+    display: inline-block;
+    width: 160rpx;
+}
+.ginfo{
+    font-size: 24rpx;
+    margin: 5rpx 0;
+    color: #7f7f7f;
+}
+.last{
+    font-size: 24rpx;
+}

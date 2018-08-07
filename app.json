@@ -1,18 +1,40 @@
 {
   "pages":[
 
-      "pages/login/login",
-    "pages/index/index",
-        "pages/product-add/index",
-        "pages/product-edit/index",
-       
-        
-        "pages/product-detail/index",        
-        "pages/product/index",
+        "pages/order-shop/index",
+        "pages/order/index",
 
+        "pages/gift-add/index",
+        "pages/gift-detail/index",
+        "pages/gift/index",
+
+        "pages/coupon-add/index",
+        "pages/coupon-edit/index",
+        "pages/coupon-detail/index",
+        "pages/coupon/index",
+
+
+        "pages/expert-set/index",
+        "pages/expert-add/index",
+        "pages/expert-edit/index",
+        "pages/expert-detail/index",
+        "pages/expert/index",
+
+        "pages/service-add/index",
+        "pages/service-edit/index",
+        "pages/service-detail/index",
         "pages/service/index",
-        "pages/order/order",
-        "pages/shop/shop"       
+
+        "pages/product-add/index",
+        "pages/product-edit/index",     
+        "pages/product-detail/index",        
+        "pages/product/index",       
+
+        "pages/login/login",
+        "pages/index/index",
+        
+        
+        "pages/shop/index"       
         
         
     
@@ -36,13 +58,13 @@
                 "text": "基本管理"
             },
             {
-                "pagePath": "pages/order/order",
+                "pagePath": "pages/order/index",
                 "iconPath": "image/icon_component.png",
                 "selectedIconPath": "image/icon_component_HL.png",
                 "text": "订单管理"
             },
             {
-                "pagePath": "pages/shop/shop",
+                "pagePath": "pages/shop/index",
                 "iconPath": "image/icon_API.png",
                 "selectedIconPath": "image/icon_API_HL.png",
                 "text": "店铺管理"

@@ -3,7 +3,7 @@ Page({
     data: {
         setProductStyle:'',
         pStyle: ['橘红','俄罗斯红','经典红','暗红色'],
-      files:[]
+        files:[]
     },
 
     //设置产品款式

@@ -1,0 +1,50 @@
+<view class='container'>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch"></search>
+        <view class='weui-flex mt15'>
+            <view class='weui-flex__item'>全部:345</view>
+            <view class='weui-flex__item'>有效:11</view>
+            <view class='weui-flex__item'>失效:43</view>
+        </view>
+    </view>
+
+    <view class='list'>
+
+        <navigator url="#" class="weui-media-box weui-media-box_appmsg align-end">
+            <view class="gift-icon"></view>
+            <view class="weui-media-box__bd_in-appmsg">
+                <view class='tit'>周年庆红包</view>
+                <view class='price'>
+                    <text class='red gift_left'>￥5.00</text>
+                    <text class='last'>剩余:￥0.00</text></view>
+                <view class='ginfo'>
+                    <text class='gift_left'>共:100个</text>
+                    <text>开始时间:2018-10-17 09:43:23</text>
+                </view>
+                <view class='ginfo'>
+                    <text class='gift_left'>共:100个</text>
+                    <text>开始时间:2018-10-17 09:43:23</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="#" class="weui-media-box weui-media-box_appmsg align-end">
+            <view class="gift-icon"></view>
+            <view class="weui-media-box__bd_in-appmsg">
+                <view class='tit'>周年庆红包</view>
+                <view class='price'>
+                    <text class='red gift_left'>￥5.00</text>
+                    <text class='last'>剩余:￥0.00</text></view>
+                <view class='ginfo'>
+                    <text class='gift_left'>共:100个</text>
+                    <text>开始时间:2018-10-17 09:43:23</text>
+                </view>
+                <view class='ginfo'>
+                    <text class='gift_left'>共:100个</text>
+                    <text>开始时间:2018-10-17 09:43:23</text>
+                </view>
+            </view>
+        </navigator>
+
+    </view>
+    <view class='add' bindtap='addService'>添加</view>
+</view>

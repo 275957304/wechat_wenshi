@@ -1,0 +1,57 @@
+@import '../expert/index.wxss';
+.container{
+    background: #f2f2f2;
+}
+.head{
+    padding: 20rpx 30rpx;
+}
+.week{    
+    white-space: nowrap;
+    height: 100rpx;
+    width: 100%;
+}
+.week-item{
+    background: #fff;
+    box-sizing: content-box;
+    width: 132rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.item-on{
+    background: #ffa000;
+    color: #fff;
+}
+.time-list{
+    padding: 15rpx 30rpx;
+}
+.item-on::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom:-12px;
+    margin-left: -8rpx;
+    width:0; 
+    height:0; 
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-top:14px solid #ffa000;   
+}
+.time-zone{
+    background: #fff;
+    border-radius: 14rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    font-size: 34rpx;
+    padding: 0 0 0 20rpx;
+    margin-bottom: 20rpx;
+}
+.dele-time{
+    float: right;
+    height: 120rpx;
+    width: 100rpx;
+    background:url('https://www.idwenshi.com/public/static/wap/images/2x/icon_delete_g.png') no-repeat center / 30rpx auto;
+}

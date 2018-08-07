@@ -1,0 +1,8 @@
+@import '../../style/form.wxss';
+.shop-left{
+    width: 200rpx;
+    margin-right:20rpx;
+}
+.shop-left .list-img{
+    margin: 0;
+}

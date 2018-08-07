@@ -8,7 +8,7 @@
         </view>
     </view>
 
-    <view class='list mt20'>
+    <view class='list'>
 
         <navigator url="/pages/product-detail/index" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
             <view class="list-img">

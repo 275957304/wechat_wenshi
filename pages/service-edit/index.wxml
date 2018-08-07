@@ -1,0 +1,153 @@
+<!--pages/service-edit/index.wxml-->
+<view class='container'>
+    <view class='edit pt20'>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">服务名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='恒润靡唇膏'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">服务类别:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='护肤化妆品'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">专家:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="expertName" value='{{setExpert}}' placeholder="请输产品款式" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addExpert' class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"></view>
+            </view>
+            <view class="weui-flex__item">
+                <badge bindbadge="bindBadge" badgeVal="{{expert}}" ></badge>
+            </view>
+        </view>
+
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品单价:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='258.00'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">所属库存:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='500'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">关健词:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="expertName" value='{{setExpert}}' placeholder="请输产品款式" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addExpert' class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"></view>
+            </view>
+            <view class="weui-flex__item">
+                <badge bindbadge="bindBadge" badgeVal="{{expert}}" ></badge>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input align-end">
+            <view class="weui-cell__hd">
+                <view class="weui-label">略缩图:</view>
+            </view>
+            <view class="weui-flex__item">
+                <view class='btn btn-primary'>打开</view>
+                <view class='btn btn-gary'>删除</view>       
+                <view class='zoom'>
+                    这里是图片
+                </view>         
+            </view>            
+        </view>
+
+        <view class="weui-cell weui-cell_input align-end">
+            <view class="weui-cell__hd">
+                <view class="weui-label">介绍图:</view>
+            </view>
+            <view class="weui-flex__item">
+                <view class='btn btn-primary'>打开</view>
+                <view class='btn btn-gary'>删除</view>       
+                <view class='zoom'>
+                    这里是图片
+                </view>         
+            </view>            
+        </view>
+        
+
+        <view class='edit-txt'>
+            <view class='mb10'>图文介绍:</view>
+            <view class='edit-txt-info'>
+            这里是文字介绍
+            </view>
+        </view>
+
+        <view class="weui-uploader__bd">
+            <view class="weui-uploader__files" id="uploaderFiles">
+            <block wx:for="{{files}}" wx:key="*this">
+                <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                    <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                </view>
+            </block>
+            <view class="weui-uploader__file">
+                <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file">
+                <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file">
+                <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+            </view>                                
+            </view>
+
+            <view class="weui-uploader__input-box">
+                <view class="weui-uploader__input" bindtap="chooseImage"></view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class='foot-panel'>
+        <view class='foot'>
+            <view class='foot-item'>
+                <view class='foot-link foot-cancel'>取消</view>
+            </view>
+            <view class='foot-item'>
+                <view class='foot-link foot-save'>保存</view>
+            </view>
+        </view>
+    </view>
+
+    
+</view>

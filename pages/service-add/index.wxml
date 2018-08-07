@@ -1,0 +1,113 @@
+<view class='container'>
+    <view class='pt20'>
+        
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">服务名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入产品名称" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">服务分类:</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <picker bindchange="bindCountryChange" value="{{sortIndex}}" range="{{sort}}">
+                        <view class="weui-select weui-select_in-select-after">{{sort[sortIndex]}}</view>
+                    </picker>
+                </view>
+            </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">专家:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="productStyle" value='' placeholder="请输入服务专家姓名" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addStyle' class="weui-vcode-btn">添加</view>
+            </view>
+        </view> 
+
+
+        <view class='pt20'>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">服务费用:</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入服务价格" value=''/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">定金:</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输定金数额 " value=''/>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">关健词:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="productStyle" value='' placeholder="请输入产品搜索关健词" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addStyle' class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+        
+        <view class='pt20'>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">缩略图:</view>
+                </view>
+                <view class="weui-flex__item">
+                    <view class='btn btn-primary'>打开</view>
+                    <view class='btn btn-gary'>删除</view>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">介绍图:</view>
+                </view>
+                <view class="weui-flex__item">
+                    <view class='btn btn-primary'>打开</view>
+                    <view class='btn btn-gary'>删除</view>
+                </view>
+            </view>
+        </view>
+
+        <view class='edit-txt'>
+            <view class='mb10'>图文介绍:</view>
+            <textarea class="weui-textarea textarea_box" placeholder="请输入文本" />
+        </view>
+
+        <view class="weui-uploader__bd">
+            <view class="weui-uploader__input-box">
+                <view class="weui-uploader__input" bindtap="chooseImage"></view>
+            </view>
+        </view>
+        
+
+        <view class='foot-panel'>
+            <view class='foot'>
+                <view class='foot-item'>
+                    <view class='foot-link foot-cancel'>取消</view>
+                </view>
+                <view class='foot-item'>
+                    <view class='foot-link'>保存</view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+</view>

@@ -1,0 +1,65 @@
+<view class='container'>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch"></search>
+        <view class='weui-flex mt15'>
+            <view class='weui-flex__item'>全部:345</view>
+            <view class='weui-flex__item'></view>
+            <view class='weui-flex__item'></view>
+        </view>
+    </view>
+    <view class='list'>
+
+        <navigator src="pages/expert-detail/index" class="weui-media-box weui-media-box_text">
+            <view class='weui-flex'>
+                <view class='list-img'>
+                    <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />
+                </view>
+                <view class='weui-flex__item'>
+                    <view class='name'>宋童童 <text class='fr'>已被预约153次</text></view>
+                    <view class='reserve'>预约定金: <text class='red'>￥800.00</text></view>
+                    <view>服务项:</view>
+                    <view class='cl'>                        
+                        <text class='term'>纹眉 ￥2000.00</text>
+                        <text class='term'>纹唇 ￥3000.00</text>
+                        <text class='term'>纹眼线  ￥3000.00</text>
+                        <text class='term'>美肤 ￥3000.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class='time-hd'>
+                <view class='time cur'>周一 10:00-12:00</view>
+                <view class='time cur'>周一 14:00~17:00</view>
+                <view class='time cur'>周二 9:00~11:00</view>
+                <view class='time'>周四 9:00~11:00</view>
+            </view>
+        </navigator>
+
+        <navigator src="pages/expert-detail/index" class="weui-media-box weui-media-box_text">
+            <view class='weui-flex'>
+                <view class='list-img'>
+                    <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />
+                </view>
+                <view class='weui-flex__item'>
+                    <view class='name'>宋童童 <text class='fr'>已被预约153次</text></view>
+                    <view class='reserve'>预约定金: <text class='red'>￥800.00</text></view>
+                    <view>服务项:</view>
+                    <view class='cl'>                        
+                        <text class='term'>纹眉 ￥2000.00</text>
+                        <text class='term'>纹唇 ￥3000.00</text>
+                        <text class='term'>纹眼线  ￥3000.00</text>
+                        <text class='term'>美肤 ￥3000.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class='time-hd'>
+                <view class='time cur'>周一 10:00-12:00</view>
+                <view class='time cur'>周一 14:00~17:00</view>
+                <view class='time cur'>周二 9:00~11:00</view>
+                <view class='time'>周四 9:00~11:00</view>
+            </view>
+        </navigator>
+
+    </view>
+
+    <view class='add' bindtap='addService'>添加</view>
+</view>

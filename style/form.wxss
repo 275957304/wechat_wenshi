@@ -28,6 +28,8 @@
     line-height: 60rpx;
     background: #ffa203;
     color: #fff;
+    border-radius: 8rpx;
+    border: none;
 }
 
 .edit-txt{
@@ -42,4 +44,174 @@
     -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
     transform: matrix(0.71, 0.71, -0.71, 0.71,  0);
     right: -5rpx;
+}
+.weui-uploader__file{
+    width: 200rpx;
+    height: 200rpx;
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+}
+.weui-uploader__img{
+    width: 200rpx;
+    height: 200rpx;
+}
+.weui-uploader__input-box{
+    background:url(https://www.idwenshi.com/public/static/wap/images/2x/btn_camera.png) no-repeat center / 100rpx auto;
+    height: 100rpx;
+    width: 100rpx;
+    border: none;
+}
+.weui-uploader__input-box:before, .weui-uploader__input-box:after{
+    display: none;
+}
+.align-end{
+    align-items: end;
+}
+.align-end .weui-label{
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.zoom{
+    margin-top: 10rpx;
+}
+.btn{    
+    color: #fff;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding: 0 30rpx;
+    border-radius: 6rpx;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.btn-primary{
+    background: #ffa000;
+}
+.btn-gary{
+    background: #e5e5e5;
+}
+.btn-red{
+    background: #f44336;
+}
+/* 产品列表 */
+.head{
+    background: #fff;
+    padding:20rpx 30rpx;
+    border-bottom: 20rpx solid #f2f2f2;
+}
+.list{
+    background: #fff;
+}
+.weui-media-box{
+    padding:30rpx 20px;
+}
+.weui-media-box:before{
+    left: 0;
+    border-color: #f2f2f2
+}
+.list-img{
+    margin-right:20rpx;
+    width: 200rpx;
+    height: 200rpx;
+    line-height: 200rpx;
+    text-align: center;
+}
+
+.add{
+    display: block;
+    width: 120rpx;
+    height: 120rpx;
+    position: fixed;
+    bottom: 40rpx;
+    left: 50%;
+    margin-left: -60rpx;
+    overflow: hidden;
+    text-indent: -999px;
+    background:url(https://www.idwenshi.com/public/static/wap/images/3x/btn_circle_add.png) no-repeat center / 120rpx auto;
+}
+
+
+/* 优惠券 */
+.coupon{
+    background: #e6c494;
+    border-radius: 8rpx;
+    position: relative;
+    height: 160rpx;
+    margin: 8rpx 0;
+    color: #fff;
+    overflow: hidden;
+}
+.money{
+    width: 180rpx;
+    padding-left: 50rpx;
+    line-height: 160rpx;
+    height: 160rpx;
+    float: left;
+    box-sizing: content-box;
+}
+.money::before,.money::after{
+    content: "";
+    display: block;
+    height: 40rpx;
+    width: 40rpx;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 86rpx;
+}
+.money::before{
+    bottom: -20rpx;
+}
+.money::after{
+    top: -20rpx;
+}
+.number{
+    font-size: 70rpx;
+}
+.coupon-info{
+    width: 300rpx;
+    float: left;
+}
+.name{
+    margin: 25rpx 0 3rpx;
+    font-size: 36rpx;
+    line-height: 1.2;
+}
+.txt{
+    font-size: 30rpx;
+    margin-bottom: 5rpx;
+}
+.ct{
+    font-size: 24rpx;
+}
+.ctxt{
+    width: 30rpx;
+    float: right;
+    padding-top: 20rpx;
+    font-size: 36rpx;
+    margin-right: 35rpx;
+    line-height: 1.2;
+    position: relative;
+}
+.ctxt::after{
+    content: "";
+    display: block;
+    width: 2rpx;
+    height: 100rpx;
+    background: #fff;
+    position: absolute;
+    left: -40rpx;
+    top: 30rpx;
+}
+
+.set-time{
+    width: 100%;
+    height: 56rpx;
+    line-height: 56rpx;
+    overflow: hidden; 
+    background:url(https://www.idwenshi.com/public/static/wap/images/3x/icon_date.png) no-repeat right center / 30rpx auto;
 }

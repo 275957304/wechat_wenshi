@@ -23,24 +23,25 @@
         这里用template去做
     </view>
 
-    <view class='foot'>
-        <view class='foot-item' bindtap="obtained">
-            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
-            下架
-        </view>
-        <view class='foot-item' bindtap='cancelShear'>
-            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
-            取消分享获利
-        </view>
-
-        <view class='foot-item' bindtap='edit'>
-            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
-            编辑
-        </view>
-        
-        <view class='foot-item' bindtap='delete'>
-            <view class='icon'><image class='dimg' src="{{downIcon}}" /></view>
-            删除
+    <view class='tab_panel'>
+        <view class='tabbar'>
+            <view class='tabbar_item' bindtap="obtained">
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_cancelShare.png" />
+                <text>下架</text>
+            </view>
+            <view class='tabbar_item' bindtap='cancelShear'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_edit.png" />
+                <text>取消分享获利</text>
+            </view>
+            <view class='tabbar_item' bindtap='edit'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_edit.png" />
+                <text>编辑</text>
+            </view>
+            <view class='tabbar_item' bindtap='delete'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_delete_g.png" />
+                <text>删除</text>
+            </view>
         </view>
     </view>
+
 </view>

@@ -1,0 +1,46 @@
+<view class='white-bg'>
+    <view class='service-img'>
+        <image class='simg' src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" />
+    </view>
+    <view class='detail-top'>
+        <view class='name'>苹果平板，苹果平板电脑，Apple平板。A9 芯片，9.7英寸绚丽的 Retina 显示屏。</view>
+        <view class='price'>￥4899.00</view>
+        <view class='sold'>
+            已售:153件
+            <text class='fr'>库存:50件</text>
+        </view>
+    </view>
+    <view class='info'>
+        <view class='expert'>
+            <text class='eitem'>谭集务</text>
+            <text class='eitem'>郑春踩</text>
+            <text class='eitem'>叶冬冬</text>
+        </view>
+        <view class='tel'>
+            <text>18842951883</text>
+            <view class='tel_icon'></view>
+        </view>
+    </view>
+    <view class='cnt-tit'>服务详情</view>
+    <view>
+        <image width="750rpx" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" />
+    </view>
+
+    <view class='tab_panel'>
+        <view class='tabbar'>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_cancelShare.png" />
+                <text>取消分享获利</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_edit.png" />
+                <text>编辑</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_delete_g.png" />
+                <text>删除</text>
+            </view>
+        </view>
+    </view>
+    
+</view>

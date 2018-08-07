@@ -1,0 +1,57 @@
+<view class='detail'>
+    <view class='gift-top-img'></view>
+    <view class='coupon-list'>
+        <view class='txt-list'>
+            <view class='txt_tit'>名称:</view>
+            <view class='txt-hd'>周年庆红包</view>
+        </view>
+        <view class='txt-list'>
+            <view class='txt_tit'>金额:</view>
+            <view class='txt-hd'>￥5.00</view>
+        </view>
+        <view class='txt-list'>
+            <view class='txt_tit'>数量:</view>
+            <view class='txt-hd'>100</view>
+        </view>
+        <view class='txt-list'>
+            <view class='txt_tit'>剩余金额:</view>
+            <view class='txt-hd'>￥0.00</view>
+        </view>
+        <view class='txt-list'>
+            <view class='txt_tit'>剩余数量:</view>
+            <view class='txt-hd'>0</view>
+        </view>
+        <view class='txt-list'>
+            <view class='txt_tit'>开始时间:</view>
+            <view class='txt-hd'>2018-08-06 19:06:05</view>
+        </view>
+        <view class='txt-list'>
+            <view class='txt_tit'>结束时间:</view>
+            <view class='txt-hd'>2018-08-06 19:06:05</view>
+        </view>
+    </view>
+    
+    <view class='txt-list'>
+        <view class='txt_tit'>领取记录:</view>
+    </view>
+    <view class='mt10'>
+        <view class='record-top'><text class='nc'>用户昵称</text><text class='sj'>领取时间</text></view>
+        <view class='record'><text class='nc'>邱臭臭</text><text class='sj'>2018-10-06 17:24:11</text></view>
+        <view class='record'><text class='nc'>邱臭臭</text><text class='sj'>2018-10-06 17:24:11</text></view>
+        <view class='record'><text class='nc'>邱臭臭</text><text class='sj'>2018-10-06 17:24:11</text></view>
+    </view>
+
+    <view class='tab_panel'>
+        <view class='tabbar'>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_edit.png" />
+                <text>编辑</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_delete_g.png" />
+                <text>删除</text>
+            </view>
+        </view>
+    </view>
+
+</view>

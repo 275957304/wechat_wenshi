@@ -1,0 +1,14 @@
+@import '../../style/form.wxss';
+.container{
+    background:#f2f2f2;
+}
+.coupon-item{
+    border-bottom: 2rpx solid #f2f2f2;
+    padding: 15rpx 30rpx;
+}
+.ctit{
+
+}
+.desc{
+    color: #7f7f7f;
+}

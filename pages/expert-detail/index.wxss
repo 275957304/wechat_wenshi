@@ -1,0 +1,48 @@
+
+.info{
+    padding:10rpx 30rpx;
+}
+.name{
+    font-size: 36rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+.name .fr{
+    color: #7f7f7f;
+    font-size: 22rpx;
+    margin-top: 5rpx;
+}
+.reserve{
+    color: #ff5050;
+    font-size: 38rpx;
+    margin: 10rpx 0;
+}
+.term,.tm{
+    display: inline-block;
+    width: 33%;
+    height: 26rpx;
+    line-height: 26rpx;
+    overflow: hidden;
+    font-size: 22rpx;
+    color: #7f7f7f;
+}
+.tel-area{
+    border-top: 2rpx solid #f2f2f2;
+    padding: 10rpx 30rpx;
+    font-size: 34rpx;
+}
+.tel_icon{
+    display: inline-block;
+    margin-left: 250rpx;
+    background:url(https://www.idwenshi.com/public/static/wap/images/3x/icon_calling.png) no-repeat center / 30rpx auto;
+    width: 40rpx;
+    height: 40rpx;
+}
+.cnt-tit{
+    margin-top: 20rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    font-size: 40rpx;
+    text-align: center;
+    background: #f8f8f8;
+}

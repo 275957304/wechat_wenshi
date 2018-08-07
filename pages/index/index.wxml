@@ -7,28 +7,28 @@
 
         <navigator class='list' url="/pages/product/index">
             <view class='tit'>产品管理</view>
-            <view class='weui-flex desc'>
-                <view class='weui-flex__item'>全部:345</view>
-                <view class='weui-flex__item'>未付款:345</view>
-                <view class='weui-flex__item'>待发货:345</view>
+            <view class='main cl'>
+                <view class='item'>全部:345</view>
+                <view class='item'>未付款:345</view>
+                <view class='item'>待发货:345</view>
             </view>
         </navigator>
         
         <view class='list'>
             <view class='tit'>服务管理</view>
-            <view class='weui-flex desc'>
-                <view class='weui-flex__item'>全部:345</view>
-                <view class='weui-flex__item'></view>
-                <view class='weui-flex__item'></view>                
+            <view class='main cl'>
+                <view class='item'>全部:345</view>
+                <view class='item'></view>
+                <view class='item'></view>                
             </view>
         </view>
 
         <view class='list'>
             <view class='tit'>专家管理</view>
-            <view class='weui-flex desc'>
-                <view class='weui-flex__item'>全部:345</view>
-                <view class='weui-flex__item'></view>
-                <view class='weui-flex__item'></view>
+            <view class='main cl'>
+                <view class='item'>全部:345</view>
+                <view class='item'></view>
+                <view class='item'></view>
             </view>
         </view>
 

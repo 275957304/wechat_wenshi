@@ -1,24 +1,4 @@
-.head{
-    background: #fff;
-    padding:20rpx 30rpx;
-}
-.list{
-    background: #fff;
-}
-.weui-media-box{
-    padding:30rpx 20px;
-}
-.weui-media-box:before{
-    left: 0;
-    border-color: #f2f2f2
-}
-.list-img{
-    margin-right:20rpx;
-    width: 200rpx;
-    height: 200rpx;
-    line-height: 200rpx;
-    text-align: center;
-}
+@import '../../style/form.wxss';
 .title{
     font-size: 34rpx;
     height: 90rpx;

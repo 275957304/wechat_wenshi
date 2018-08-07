@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "专家管理",
+    "usingComponents": {
+        "search": "/components/search/search"
+    }
+}

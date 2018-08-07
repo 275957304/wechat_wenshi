@@ -1,0 +1,12 @@
+@import '../../style/form.wxss';
+.ts{
+    min-width: 240rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    background: #e4d1d7;
+    margin: 0 20rpx 20rpx 0;
+    float: left;
+    font-size: 24rpx;
+    color: #fff;
+    text-align: center;
+}

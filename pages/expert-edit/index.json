@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "专家编辑",
+    "usingComponents": {
+        "badge": "/components/badge/badge"
+    }
+}

@@ -1,0 +1,34 @@
+<view class='container'>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch"></search>
+        <view class='weui-flex mt15'>
+            <view class='weui-flex__item'>全部:345</view>
+            <view class='weui-flex__item'>有效:100</view>
+            <view class='weui-flex__item'>失效:54</view>
+        </view>
+    </view>
+
+    <view class='list'>
+    
+        <navigator class='coupon-item'>
+            <view class='ctit'>满600元减30元</view>
+            <view class='coupon'>
+                <view class='money'>￥<text class='number'>30</text></view>
+                <view class='coupon-info'>
+                    <view class='name'>满600元使用</view>
+                    <view class='txt'>仅限商品</view>
+                    <view class='ct'>到期： 2018-5-30 23:59:59</view>
+                </view>
+                <view class='ctxt'>优惠券</view>
+            </view>
+            <view class='desc'>
+                共50张
+                <view class='fr'>已领取150张</view>
+            </view>
+        </navigator>
+       
+
+
+    </view>
+    <view class='add' bindtap='addService'>添加</view>
+</view>

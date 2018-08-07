@@ -1,8 +1,1 @@
 @import '../../style/form.wxss';
-
-.weui-uploader__bd{
-  padding:0 30rpx;
-}
-.weui-uploader__input-box{
-  border-radius: 30rpx;
-}

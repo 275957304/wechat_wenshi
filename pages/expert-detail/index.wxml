@@ -1,0 +1,56 @@
+<view class='white-bg'>
+    <view class='detail-img'>
+        <image class='simg' src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" />
+    </view>
+    <view class='info'>
+        <view class='name'>宋童童 <text class='fr'>已被预约153次</text></view>
+        <view class='reserve'>预约定金: ￥4899.00</view>
+        <view>服务项:</view>
+        <view class='cl'>
+            <text class='term'>纹眉 ￥2000.00</text>
+            <text class='term'>纹唇 ￥3000.00</text>
+            <text class='term'>纹眼线  ￥3000.00</text>
+            <text class='term'>美肤 ￥3000.00</text>
+        </view>
+        <view class='mt10'>预约时间:</view>
+        <view class='cl'>
+            <text class='tm'>星期二 10:00~12:00</text>
+            <text class='tm'>星期二 10:00~12:00</text>
+            <text class='tm'>星期二 10:00~12:00</text>
+            <text class='tm'>星期二 10:00~12:00</text>
+            <text class='tm'>星期二 10:00~12:00</text>
+            <text class='tm'>星期二 10:00~12:00</text>
+        </view>
+    </view>
+    <view class='tel-area'>
+        <text>18842951883</text>
+        <view class='tel_icon'></view>
+    </view>
+    <view class='cnt-tit'>服务详情</view>
+    <view>
+        <image width="750rpx" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" />
+    </view>
+
+
+    <view class='tab_panel'>
+        <view class='tabbar'>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_cancelShare.png" />
+                <text>下架</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_cancelShare.png" />
+                <text>分享获利</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_edit.png" />
+                <text>编辑</text>
+            </view>
+            <view class='tabbar_item'>
+                <image class='tab_icon' src="https://www.idwenshi.com/public/static/wap/images/3x/icon_delete_g.png" />
+                <text>删除</text>
+            </view>
+        </view>
+    </view>
+
+</view>

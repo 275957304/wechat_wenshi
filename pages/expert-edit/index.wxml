@@ -1,0 +1,137 @@
+<view class='container'>
+    <view class='pt20'>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">专家名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">服务项:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">产品款式:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" bindinput="productStyle" value='{{setProductStyle}}' placeholder="请输产品款式" />
+            </view>
+            <view class="weui-cell__ft">
+                <view bindtap='addStyle' class="weui-vcode-btn">添加</view>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"></view>
+            </view>
+            <view class="weui-flex__item">
+                城标
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">定金:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="" value='258.00'/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">联系电话:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" type="number" placeholder="" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input align-end">
+            <view class="weui-cell__hd">
+                <view class="weui-label">简介:</view>
+            </view>
+            <textarea class="weui-textarea textarea_box" placeholder="请输入文本" />
+        </view>
+
+        <view class="weui-cell weui-cell_input align-end">
+            <view class="weui-cell__hd">
+                <view class="weui-label">预约时间:</view>
+            </view>
+            <view class='cl'>
+                <view class='ts'>星期二 10:00~12:00</view>
+                <view class='ts'>星期二 10:00~12:00</view>
+                <view class='ts'>星期二 10:00~12:00</view>
+                <view class='ts'>星期二 10:00~12:00</view>
+                <view class='btn btn-primary'>设置专家预约时间</view>
+            </view>            
+        </view>
+
+        <view class="weui-cell weui-cell_input align-end">
+            <view class="weui-cell__hd">
+                <view class="weui-label">略缩图:</view>
+            </view>
+            <view class="weui-flex__item">
+                <view class='btn btn-gary' style='margin-right: 160rpx;'>打开</view>
+                <view class='btn btn-red'>删除</view>       
+                <view class='zoom'>
+                    这里是图片
+                </view>         
+            </view>            
+        </view>
+
+        <view class='edit-txt'>
+            <view class='mb10'>图文介绍:</view>
+            <view class='edit-txt-info'>
+            这里是文字介绍
+            </view>
+        </view>
+
+        <view class="weui-uploader__bd">
+            <view class="weui-uploader__files" id="uploaderFiles">
+            <block wx:for="{{files}}" wx:key="*this">
+                <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                    <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                </view>
+            </block>
+            <view class="weui-uploader__file">
+                <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file">
+                <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file">
+                <image class="weui-uploader__img" src="https://www.idwenshi.com/public/static/wap/images/2x/banner.png" mode="aspectFill" />
+            </view>                                
+            </view>
+
+            <view class="weui-uploader__input-box">
+                <view class="weui-uploader__input" bindtap="chooseImage"></view>
+            </view>
+        </view>
+
+
+    </view>
+
+    <view class='foot-panel'>
+        <view class='foot'>
+            <view class='foot-item'>
+                <view class='foot-link foot-cancel'>取消</view>
+            </view>
+            <view class='foot-item'>
+                <view class='foot-link foot-save'>保存</view>
+            </view>
+        </view>
+    </view>
+    
+</view>

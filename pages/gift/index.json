@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "红包中心",
+    "usingComponents": {
+        "search": "/components/search/search"
+    }
+}

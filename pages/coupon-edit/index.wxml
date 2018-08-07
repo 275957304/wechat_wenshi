@@ -1,0 +1,96 @@
+<view class='container'>
+    <view class='edit'>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入优惠券名称" value=' '/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>类型:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
+                    <view class="weui-select weui-select_in-select-after">{{countries[countryIndex]}}</view>
+                </picker>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>面值:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入优惠券价值" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>使用范围:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <picker bindchange="bindCountryChange" value="{{rangeIndex}}" range="{{range}}">
+                    <view class="weui-select weui-select_in-select-after">{{range[rangeIndex]}}</view>
+                </picker>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>开始时间:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <picker class="weui-btn" mode="date" value="{{startDate}}" start="2015-09-01" end="2017-09-01" bindchange="bindStartDate">
+                    <view class='set-time'>{{startDate}}</view>
+                </picker>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>结束时间:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <picker class="weui-btn" mode="date" value="{{endDate}}" start="2015-09-01" end="2017-09-01" bindchange="bindEndDate">
+                    <view class='set-time'>{{endDate}}</view>
+                </picker>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label"><text class='red'>*</text>数量:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" type="number" placeholder="请输入优惠券数量" value=''/>
+            </view>
+        </view>
+
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">每人限领:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" type="number" placeholder="请输入优惠券每人限邻数量" value=''/>
+            </view>
+        </view>
+    </view>
+
+    <view class='foot-panel'>
+        <view class='foot'>
+            <view class='foot-item'>
+                <view class='foot-link foot-cancel'>取消</view>
+            </view>
+            <view class='foot-item'>
+                <view class='foot-link'>保存</view>
+            </view>
+        </view>
+    </view>
+
+</view>

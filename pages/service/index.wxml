@@ -1,2 +1,53 @@
-<!--pages/service/index.wxml-->
-<text>pages/service/index.wxml</text>
+<view class='container'>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch"></search>
+        <view class='weui-flex mt15'>
+            <view class='weui-flex__item'>全部:345</view>
+            <view class='weui-flex__item'></view>
+            <view class='weui-flex__item'></view>
+        </view>
+    </view>
+    <view class='list'>
+        <navigator url="/pages/service-detail/index" class="weui-media-box weui-media-box_appmsg">
+            <view class="list-img">
+                <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />
+            </view>
+            <view class="weui-media-box__bd_in-appmsg">
+                <view class="list-top weui-flex">
+                    <view class='title weui-flex__item'>恒润阵色双眼皮这里是标题恒润阵色双眼皮这里是标题</view>
+                    <view class='ys'>已售153件</view>
+                </view>
+                <view class='amount'>
+                    <view class='price'><text class='symbol'>￥</text>258</view>
+                    <text class='dj'>定金：￥800.00元</text>
+                </view>
+                <view class='bq'>
+                    <text class='name'>谭集务</text>
+                    <text class='name'>郑春踩</text>
+                    <text class='name'>叶冬冬</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="/pages/service-detail/index" class="weui-media-box weui-media-box_appmsg">
+            <view class="list-img">
+                <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />
+            </view>
+            <view class="weui-media-box__bd_in-appmsg">
+                <view class="list-top weui-flex">
+                    <view class='title weui-flex__item'>恒润阵色双眼皮这里是标题恒润阵色双眼皮这里是标题</view>
+                    <view class='ys'>已售153件</view>
+                </view>
+                <view class='amount'>
+                    <view class='price'><text class='symbol'>￥</text>258</view>
+                    <text class='dj'>定金：￥800.00元</text>
+                </view>
+                <view class='bq'>
+                    <text class='name'>谭集务</text>
+                    <text class='name'>郑春踩</text>
+                    <text class='name'>叶冬冬</text>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <view class='add' bindtap='addService'>添加</view>
+</view>

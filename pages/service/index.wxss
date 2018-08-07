@@ -1,1 +1,40 @@
-/* pages/service/index.wxss */
+@import '../../style/form.wxss';
+.list-top{    
+    height: 90rpx;
+    line-height: 45rpx;
+}
+.title{
+    font-size: 34rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.ys{
+    color: #878787;
+    font-size: 24rpx;
+}
+.amount{
+    display: flex;
+}
+.price{
+    flex: 1;
+    color: #f77b72;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+.symbol{
+    font-size: 24rpx;
+    font-weight: normal;
+}
+.dj{
+    font-size: 24rpx;
+    color: #4c4c4c;
+    padding-top:15rpx;
+
+}
+.name{
+    margin: 0 10rpx;
+    color: #7f7f7f;
+}

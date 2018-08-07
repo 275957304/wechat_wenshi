@@ -24,8 +24,12 @@
     height: 24rpx;
     line-height: 24rpx;
 }
-.desc{
-    margin-top: 25rpx;
+.main{
+    margin-top: 25rpx;    
+}
+.item{
     color: #7f7f7f;
     text-align: center;
+    width: 33%;
+    float: left;
 }

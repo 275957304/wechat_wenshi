@@ -1,0 +1,9 @@
+@import '../coupon-detail/index.wxss';
+.detail{
+    padding: 20rpx 30rpx;
+}
+.gift-top-img{
+    background:url('https://www.idwenshi.com/public/static/wap/images/3x/pic_hongbao_big.png') no-repeat center / 100% auto;
+    width: 100%;
+    height: 200rpx;
+}

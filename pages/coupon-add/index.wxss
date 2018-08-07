@@ -1,0 +1,10 @@
+@import '../../style/form.wxss';
+.edit{
+    padding:40rpx 0;
+}
+.weui-label{
+    width: 150rpx;
+}
+.weui-cell__bd{
+    background: #f8f8f8;
+}

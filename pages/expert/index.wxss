@@ -1,0 +1,39 @@
+@import '../../style/form.wxss';
+.time-hd .time:nth-of-type(even){
+    float: right;
+}
+.time{
+    margin-top: 20rpx;
+    display: inline-block;
+    height: 60rpx;
+    line-height: 60rpx;
+    min-width: 300rpx;
+    text-align: center;
+    background: #e5e5e5;
+    color: #fff;
+}
+.cur{
+    background: #e4d1d7;
+}
+.name{
+    font-size: 36rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+.name .fr{
+    color: #7f7f7f;
+    font-size: 22rpx;
+    margin-top: 5rpx;
+}
+.reserve{
+    margin: 5rpx 0 0;
+}
+.term{
+   width: 50%;
+   float: left;
+   height: 38rpx;
+   line-height: 38rpx;
+   text-align: left;
+   font-size: 22rpx; 
+   color: #7f7f7f;
+}

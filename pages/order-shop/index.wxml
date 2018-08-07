@@ -1,0 +1,23 @@
+<view class='container'>
+    <view class='head'>
+        <search class="search" bindsearch="handleSearch"></search>
+        <view class='weui-flex mt15'>
+            <view class='weui-flex__item'>全部:345</view>
+            <view class='weui-flex__item'>有效:100</view>
+            <view class='weui-flex__item'>失效:54</view>
+        </view>
+    </view>
+
+    <view class='list'>
+        <navigator url="/pages/product-detail/index" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class='shop-left'>
+                <view class="list-img">
+                    <image class="weui-media-box__thumb" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/1.png?t=18080218" />                
+                </view>
+            </view>
+            <view class="weui-media-box__bd_in-appmsg">
+                fdsfsfdsfds
+            </view>
+        </navigator>
+    </view>    
+</view>

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "服务编辑",
+    "usingComponents": {
+        "badge": "/components/badge/badge"
+    }
+}

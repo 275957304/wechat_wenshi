@@ -11,15 +11,15 @@
         </view>
 
         <view class="weui-cell weui-cell_input">
-                <view class="weui-cell__hd">
-                    <view class="weui-label">所属分类:</view>
-                </view>
-                <view class="weui-cell__bd">
-                    <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
-                        <view class="weui-select weui-select_in-select-after">{{countries[countryIndex]}}</view>
-                    </picker>
-                </view>
+            <view class="weui-cell__hd">
+                <view class="weui-label">所属分类:</view>
             </view>
+            <view class="weui-cell__bd">
+                <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
+                    <view class="weui-select weui-select_in-select-after">{{countries[countryIndex]}}</view>
+                </picker>
+            </view>
+        </view>
 
         <view class="weui-cell weui-cell_input">
             <view class="weui-cell__hd">
@@ -33,7 +33,8 @@
             </view>
         </view> 
 
-        <view class='mt15'>
+
+        <view class='pt20'>
             <view class="weui-cell weui-cell_input">
                 <view class="weui-cell__hd">
                     <view class="weui-label">产品单价:</view>
@@ -42,9 +43,6 @@
                     <input class="weui-input" placeholder="请输入产品单价" value=''/>
                 </view>
             </view>
-        </view>
-
-        <view class='pt20'>
             <view class="weui-cell weui-cell_input">
                 <view class="weui-cell__hd">
                     <view class="weui-label">所属库存:</view>
@@ -67,5 +65,49 @@
             </view>
         </view>
         
+        <view class='pt20'>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">缩略图:</view>
+                </view>
+                <view class="weui-flex__item">
+                    <view class='btn btn-primary'>打开</view>
+                    <view class='btn btn-gary'>删除</view>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">介绍图:</view>
+                </view>
+                <view class="weui-flex__item">
+                    <view class='btn btn-primary'>打开</view>
+                    <view class='btn btn-gary'>删除</view>
+                </view>
+            </view>
+        </view>
+
+        <view class='edit-txt'>
+            <view class='mb10'>图文介绍:</view>
+            <textarea class="weui-textarea textarea_box" placeholder="请输入文本" />
+        </view>
+
+        <view class="weui-uploader__bd">
+            <view class="weui-uploader__input-box">
+                <view class="weui-uploader__input" bindtap="chooseImage"></view>
+            </view>
+        </view>
+        
+
+        <view class='foot-panel'>
+            <view class='foot'>
+                <view class='foot-item'>
+                    <view class='foot-link foot-cancel'>取消</view>
+                </view>
+                <view class='foot-item'>
+                    <view class='foot-link'>保存</view>
+                </view>
+            </view>
+        </view>
+
     </view>
 </view>

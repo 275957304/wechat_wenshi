@@ -1,0 +1,54 @@
+.service-img{
+    width: 100%;
+    overflow: hidden;
+}
+.simgP{
+    display: block;
+    width: 750rpx;
+    height: 600rpx;
+}
+.detail-top{
+    background: #f8f8f8;
+    padding:15rpx 30rpx;
+}
+.price{
+    color: #ff5050;
+    font-size: 36rpx;
+    font-weight: bold;
+    margin: 15rpx 0;
+}
+.sold {
+    color: #aaa;
+}
+.info{
+    margin-top: 2rpx;
+    background: #f8f8f8;
+    padding:15rpx 30rpx;
+    color: #7b7b7b;
+}
+.expert{
+    border-bottom: 2rpx solid #f2f2f2;
+    margin-bottom: 10rpx;
+}
+.eitem{
+    display: inline-block;
+    margin: 0 10rpx 10rpx;
+}
+.tel{
+    font-size: 36rpx;
+}
+.tel_icon{
+    display: inline-block;
+    margin-left: 250rpx;
+    background:url(https://www.idwenshi.com/public/static/wap/images/3x/icon_calling.png) no-repeat center / 30rpx auto;
+    width: 30rpx;
+    height: 30rpx;
+}
+.cnt-tit{
+    margin-top: 20rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    font-size: 40rpx;
+    text-align: center;
+    background: #f8f8f8;
+}

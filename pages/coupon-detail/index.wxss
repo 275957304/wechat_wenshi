@@ -1,0 +1,37 @@
+@import '../../style/form.wxss';
+.detail{
+    padding: 40rpx 30rpx;
+}
+.coupon-list{
+    padding: 5rpx 0;
+}
+.txt-list{
+    margin: 12rpx 0;
+    display: flex;
+    align-items: center;
+}
+.txt_tit{
+    width: 160rpx;
+    text-align: right;
+    margin-right: 25rpx;
+    color: #7f7f7f;
+}
+.txt-hd{
+    flex: 1;
+}
+.record-top{
+    border-bottom: 2rpx solid #f4edef;
+    margin:20rpx 0 15rpx;
+    padding-bottom: 5rpx;
+
+}
+.record{
+    height: 46rpx;
+    line-height: 46rpx;
+    color: #8a8a8a;
+}
+.record .nc,.record-top .nc{
+    width: 270rpx;
+    padding: 0 40rpx;
+    display: inline-block;    
+}
